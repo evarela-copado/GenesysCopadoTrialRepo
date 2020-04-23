@@ -13,17 +13,17 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Basauri, 6'; 
-        a.shippingstate = 'Madrid';
-        a.shippingpostalcode ='28023';
+        a.shippingstreet = '111 W Illinois St'; 
+        a.shippingstate = 'Chicago';
+        a.shippingpostalcode ='60654';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='9251234567';
+        a.Phone='1111111';
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copa.do'; 
+        a.website = 'www.copado.com'; 
         return a;
     }
 }
